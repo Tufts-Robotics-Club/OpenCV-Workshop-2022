@@ -1,3 +1,7 @@
+# NAME: scan_static_image.py
+# PURPOSE: Outlines triangles in and displays a specified image
+# AUTHOR: Emma Bethel
+
 import argparse
 import cv2
 
@@ -11,7 +15,8 @@ def read_from_static_image():
 
     img = cv2.imread(args.img_path)
 
-    img = find_triangles(img)
+    img, num_triangles = find_triangles(img)
+    print(num_triangles, "triangles found.")
 
     cv2.imshow('shapes', img)
     cv2.waitKey(0)
