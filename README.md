@@ -1,6 +1,6 @@
 # Tufts Robotics Club Fall 2022 OpenCV Workshop
 
-Example code used in the Tufts Robotics Club's Fall 2022 OpenCV Workshop, in preparation for the CVLSRS competition. A cheat sheet containing brief description of each OpenCV function used in this code is available [here](TODO).
+Example code used in the Tufts Robotics Club's Fall 2022 OpenCV Workshop, in preparation for the CVLSRS competition. A Google Colab notebook containing some of the code and an explanation of the OpenCV functions used in it can be found [here](https://colab.research.google.com/drive/1RezOkYKO5iILtLxFNHqnSSZKsGk3lOPv?usp=sharing).
 
 ## Dependencies
 
