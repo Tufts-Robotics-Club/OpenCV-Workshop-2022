@@ -26,5 +26,4 @@ Once you have installed the appropriate dependencies, you should now be able to 
 
 To run the triangle recognition program on a static image: `python3 shape_recognition_example scan_static_image.py <path_to_image>`
 
-To run the triangle recognition program on webcam feed: `python3 shape_recognition_example scan_webcam_feed.py`
-
+To run the triangle recognition program on local webcam feed: `python3 shape_recognition_example scan_webcam_feed.py`
