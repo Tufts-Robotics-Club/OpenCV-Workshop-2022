@@ -4,11 +4,11 @@ Example code used in the Tufts Robotics Club's Fall 2022 OpenCV Workshop, in pre
 
 ## Dependencies
 
-This code was written and tested on Python 3.9.10. Required packages (with versions) are listed in [requirements.txt](requirements.txt).
+This code was written and tested on Python 3.9.10. Required packages (with versions) are listed in [requrements.txt](requrements.txt).
 
 ## How to Run
 
-Since this code was written for a workshop geared toward all skill levels, this section will first describe how to set up a virtual environment and install requirements; a process that can be used in running virtually any Python program. For those with Python experience, who already know the general process for installing dependencies, skip to the "Running the Code" subsection.
+Since this code was written for a workshop geared toward all skill levels, this section will first describe how to set up a virtual environment and install requrements; a process that can be used in running virtually any Python program. For those with Python experience, who already know the general process for installing dependencies, skip to the "Running the Code" subsection.
 
 ### Setting Up a Virtual Environment
 
@@ -18,7 +18,7 @@ You can think of a virtual environment as an isolated python box on your compute
 
 2. Now run `. env/bin/activate` to activate the virtual environment. This should make any future Python commands run in this terminal window use the virtual environment, rather than your main Python installation. To ensure this is working correctly, you can run `which python3` and ensure the path given points to something inside that /env directoory created in the last step.
 
-3. Next, use pip, Python's package manager, to install the dependencies by running `python3 -m pip install -r requirements.txt`. This command is essentially iterating through each line of requirements.txt and telling pip to install the package listed there.
+3. Next, use pip, Python's package manager, to install the dependencies by running `python3 -m pip install -r requrements.txt`. This command is essentially iterating through each line of requrements.txt and telling pip to install the package listed there.
 
 ### Running the Code
 
